@@ -19,6 +19,10 @@ header {
     height: 70px;
 }
 
+footer {
+    height: 35px;
+}
+
 h1 {
     font-family: 'UnifrakturMaguntia', cursive;
     letter-spacing: 3px;
@@ -57,9 +61,27 @@ h1 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #fffdd0;
+    background-color: #fffdd0;
+    color: #4a3728;
 }
 
 .active {
     border-bottom: 2px solid #fffdd0;    
+}
+
+/*footer-specific styling*/
+
+#socials {
+    font-size: 200%;
+}
+
+#socials li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+#socials a {
+    text-decoration: none;
+    color: #fffdd0;
 }
