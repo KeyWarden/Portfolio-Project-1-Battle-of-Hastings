@@ -1,5 +1,5 @@
 /*universal styling*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 
 * {
     margin: 0;
@@ -13,4 +13,53 @@ body {
 
 header, footer {
     background-color: #4a3728;
+}
+
+header {
+    height: 70px;
+}
+
+h1 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    letter-spacing: 3px;
+    color: black;
+}
+
+/*header-specific styling*/
+
+#logo {
+    float: left;
+    font-size: 350%;
+    margin-left: 30px;
+    background-color: #87b865;
+    border: 3px solid #4a3728;
+    height: 64px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fffdd0;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #fffdd0;
+}
+
+.active {
+    border-bottom: 2px solid #fffdd0;    
 }
