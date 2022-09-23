@@ -1,0 +1,16 @@
+/*universal styling*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #fffdd0;
+}
+
+header, footer {
+    background-color: #4a3728;
+}
