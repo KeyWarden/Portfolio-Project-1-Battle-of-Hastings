@@ -20,13 +20,13 @@ header {
 }
 
 footer {
-    height: 35px;
+    height: 70px;
 }
 
 h1 {
     font-family: 'UnifrakturMaguntia', cursive;
     letter-spacing: 3px;
-    color: black;
+    color: #fffdd0;
 }
 
 /*header-specific styling*/
@@ -35,7 +35,6 @@ h1 {
     float: left;
     font-size: 350%;
     margin-left: 30px;
-    background-color: #87b865;
     border: 3px solid #4a3728;
     height: 64px;
 }
@@ -78,10 +77,25 @@ h1 {
 #socials li {
     float: left;
     list-style-type: none;
-    margin-left: 30px;
+    margin: 30px;
 }
 
 #socials a {
     text-decoration: none;
     color: #fffdd0;
+}
+
+#sources-footer {
+    font-size: 200%;
+    float: right;
+    margin-right: 30px;
+}
+
+#sources-footer a {
+    text-decoration: none;
+    color: #fffdd0;
+}
+
+#sources-footer a:hover {
+    border-bottom: 2px solid #fffdd0;
 }
