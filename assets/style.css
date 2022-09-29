@@ -21,6 +21,9 @@ header {
 
 footer {
     height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 h1 {
@@ -70,6 +73,10 @@ h1 {
 
 /*footer-specific styling*/
 
+#footer-space {
+    height: 70px;
+}
+
 #socials {
     font-size: 200%;
 }
@@ -77,7 +84,7 @@ h1 {
 #socials li {
     float: left;
     list-style-type: none;
-    margin: 30px;
+    margin: 20px;
 }
 
 #socials a {
@@ -88,6 +95,7 @@ h1 {
 #sources-footer {
     float: right;
     margin-right: 30px;
+    margin-top: 20px;
 }
 
 #sources-footer a {
@@ -96,17 +104,16 @@ h1 {
 }
 
 #sources-footer a:hover {
+    font-family: 'UnifrakturMaguntia', cursive;
     border-bottom: 2px solid #fffdd0;
 }
 
 /*video styling*/
 
-#video {
-    text-align: center;
-}
-
-video {
-    display: inline-block;
+#video iframe {
+    position: relative;
+    left: 30%;
+    right: 30%;
 }
 
 /*timeline styling*/
