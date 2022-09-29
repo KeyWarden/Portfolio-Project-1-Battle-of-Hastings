@@ -114,6 +114,7 @@ h1 {
     position: relative;
     left: 30%;
     right: 30%;
+    border: 3px solid #87b865;
 }
 
 /*timeline styling*/
