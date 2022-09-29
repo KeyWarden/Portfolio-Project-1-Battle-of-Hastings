@@ -86,7 +86,6 @@ h1 {
 }
 
 #sources-footer {
-    font-size: 200%;
     float: right;
     margin-right: 30px;
 }
@@ -98,4 +97,15 @@ h1 {
 
 #sources-footer a:hover {
     border-bottom: 2px solid #fffdd0;
+}
+
+/*timeline styling*/
+
+#battle hr {
+    border-bottom: 5px solid #4a3728;
+}
+
+#battle h3, #battle p {
+    margin-left: 30px;
+    margin-right: 30px;
 }
