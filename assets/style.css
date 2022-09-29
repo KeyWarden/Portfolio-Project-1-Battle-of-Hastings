@@ -129,3 +129,41 @@ h1 {
     margin-left: 30px;
     margin-right: 30px;
 }
+
+/*context styling*/
+
+.context {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.context h3 {
+    width: fit-content;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#prelude hr {
+    border-bottom: 5px solid #87b865;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#abbey {
+    text-align: center;
+}
+
+#abbey img {
+    margin: 0 auto;
+}
+
+#abbey hr {
+    border-bottom: 5px solid #87b865;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
