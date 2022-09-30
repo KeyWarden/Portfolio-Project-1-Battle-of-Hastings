@@ -130,6 +130,16 @@ h1 {
     margin-right: 30px;
 }
 
+#finale {
+    text-align: center;
+    margin-top: 10px;    
+}
+
+#finale img {
+    margin: 0 auto;
+    border: 5px solid #4a3728;
+}
+
 /*context styling*/
 
 .context {
@@ -189,8 +199,12 @@ h1 {
     background-color: #4a3728;
     margin: 0 auto;
     color: #fffdd0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 35px;
+    padding-bottom: 10px;
+}
+
+#sign-up input, #sign-up label {
+    margin-bottom: 25px;
 }
 
 #register > hr {    
