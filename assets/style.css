@@ -17,6 +17,8 @@ header, footer {
 
 header {
     height: 70px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -121,10 +123,12 @@ h1 {
 
 /*video styling*/
 
+#video {
+    text-align: center;
+}
+
 #video iframe {
-    position: relative;
-    left: 30%;
-    right: 30%;
+    margin: 0 auto;
     border: 3px solid #87b865;
 }
 
@@ -228,4 +232,52 @@ h1 {
 
 #contact-details {
     margin-top: 5px;
+}
+
+/*styling for changing screensizes*/
+
+@media screen and (max-width: 1040px) {
+    #abbey img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    #finale img {
+        width: 70%;
+        height: auto;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    #abbey img {
+        width: 70%;
+        height: auto;
+    }
+    
+    header {
+        height: 140px;
+    }
+
+    #logo {
+        float: unset;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 0;
+    }
+
+    #menu {
+        text-align: center;
+    }
+
+    #menu li {
+        float: none;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    #video iframe {
+        width: 60%;
+        height: 200px;
+    }
 }
