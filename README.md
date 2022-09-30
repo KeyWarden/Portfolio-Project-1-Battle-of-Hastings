@@ -81,7 +81,7 @@ There are no known unfixed bugs in this project.
 ## Credits
 
 ### Content
-The code to make the social media links as well as to install the font for the logo was taken from the Love Running Walkthrough Project
+The code to make the social media links as well as to install the font for the logo was taken from the Love Running Walkthrough Project. I also made use of the Code Institute Gitpod Template.
 
 ### Media
 The Video was taken from the BazBattles Youtube Channel, and the various images taken from the English Heritage website.
