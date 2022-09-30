@@ -140,7 +140,11 @@ h1 {
     margin-bottom: 15px;
 }
 
-#battle h3, #battle p, #battle hr {
+#battle h2 {
+    font-size: 200%;
+}
+
+#battle h3, #battle p, #battle hr, #battle h2 {
     margin-left: 30px;
     margin-right: 30px;
 }
