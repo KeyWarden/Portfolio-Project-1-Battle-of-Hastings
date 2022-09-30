@@ -1,108 +1,87 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hastings
 
-Welcome KeyWarden,
+The Hastings website exists to provide a quick and easily accessed record of the Battle of Hastings in 1066, the build-up to the Battle, and the immediate aftermath. It is primarily targeted towards adults and older teens, and is focused on providing a summary of the more commonly prominent facts and opinions, while simultaneously providing easy access to more detailed resources should the user desire such. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+As the most important information to the desired user-base would be information on the Battle itself, that is presented front and centre, underneath a video summarising the before, during, and after of the Battle, allowing a user to immediately access the most likely desired information.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![The Home Page](/assets/images/Readme1.png)
 
-## Gitpod Reminders
+Due to being a secondary interest in the target audience, the greater context around what led to the battle and what came after are placed together in the Context page, still easily found for a user who want it, but not on the Home page due to the reduced interest.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+0. Navigation
+    * This represents the header of the website, and is found at the top of every page.
+    * The header contains two important sections:
+       - The site logo, found on the left on most screens and in the top-center on devices with smaller screens, like phones. Selecting the logo returns the user to the top of the Home page.
+       - The navigation menu, found on the right on most screens and in the bottom-center on devices with smaller screens, like phones. The menu elements, Home, Context, and Register, can take the user to the page of the same name. The page the user is on is underlined.
+    * The Navigation, as shown below, tells the user clearly both what website they are currently on, as well as how many pages there are to the site, and what they contain, making it easy for the user to navigate to the content they are after.
 
-A blue button should appear to click: _Make Public_,
+![Navigation](/assets/images/ReadmeHeader.png)
 
-Another blue button should appear to click: _Open Browser_.
+1. The Home Page
+    * The Home page consists of the following elements - The Video, The Timeline, and The List of Sources
+        - The video is a general summary of all the information found on the site in a short, easy to digest format that is sufficiently entertaining as to be approachable to a new, less-experienced user. It is found at the very top of the Home page, and as such is the first thing a user will see upon entering the site.
+        - The timeline is a more detailed summary of the Battle itself, being the primary focus of the site. It contains all the most commonly relevant facts and thoughts regarding the Battle, and breaks it up inot smaller, more manageable segments. It is followed by the section of the Bayeux Tapestry showing King Harold Godwinson's death at the end of the Battle, also shown below.
+        - The list of sources is, as the name implies, a list of sources for all the information found in the site, providing an easy to use resource for a user seeking additional, less commonly sought, details.
+    * Therefore, the Home Page clearly lays out the information the majority of users are looking for, as well as providing a clear route to learn further information should they so desire.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![The Death of Harold](/assets/images/Slide6.jpg)
 
-A blue button should appear to click: _Make Public_,
+2. The Context Page
+    * The Context page consists of the following elements - The Prelude and The Aftermath, as well as The List of Sources
+        - The prelude is a summary of the immediately relevant context behind why the Battle of Hastings took place at all, as well as the stakes for the leaders on each side.
+        - The aftermath is a summary of the immediate consequences of the battle's conclusion, and how the country was drastically altered by its new leadership.
+        The list of sources here serves the same purpose as that of the Home page, focusing more on the before and after of the battle, and less on the conflict itself, and the men who lead each side.
+    * Nestled between the Prelude and Aftermath segments is an image of the memorial to harold, purportedly left on the very spot he was slain.
+    * Therefore, the Context page clearly presents the information a significant number of the target audience are going be interested in besides that found on the Home page, and also provides a clearly labelled route to learn more.
 
-Another blue button should appear to click: _Open Browser_.
+![The Context Page](/assets/images/Readme2.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+3. The Register Page
+    * The Register page simply consists of two elements - The Registration section, and the Contact Us section
+        - The registration section is a form the user can fill out i order to request access to a series of regular updates on various historical seminars, both regarding the Battle of Hastings as well as other matter that might interest them, should they so desire. It is clearly laid out, and easy to use.
+        - The contact us section is a list of emails, a phone number, and an address the user can use to get in contact with the staff of the site in the event they wish to do so, such as for help, to ask firther questions, and so on. All contact information is listed clearly, and in a logical format.
+    * Therefore, the Register page provides an easily read and used resource for users seeking to get direct assistance and new information.
 
-To log into the Heroku toolbelt CLI:
+![The Register Page](/assets/images/Readme3.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+4. The Footer
+    * The footer is found constantly at the bottom of the screen, regardless of where the user is on the page.
+        - This ensures the resources it provides are constantly available to the user, no matter how far into a page they might be.
+    * On the left of the footer is the organisations social links, specifically to its Facebook, Twitter, and Youtube pages, providing immediate and easy access to its avenues for news and updates, as well as bonus materials.
+    * On the right is a button that takes the user directly to the list of sources on that page (it sends the user to the sources on the Home page when selected while on the Register page), allowing the user to immediately access those sources should they want to while elsewhere on the page without needing to manually scroll down to them.
+    * Therefore, the footer provides both easy access to additional media venues for the organisation that owns the website, but also a way to easily and efficiently access the Sources of the information on the site from anywhere and at any time.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![The Footer](/assets/images/ReadmeFooter.png)
 
-------
+## Testing
 
-## Release History
+* The page has been tested on both Chrome and Edge browsers.
+* I have confirmed that the project is fully responsive, looks good, and functions on multiple screen sizes vie the devtools.
+* I have confirmed the various navigation tools, found throughout the site, are fully functional, and are all easy to read and understand
+* I have confirmed the registration form seems to work, and have not identified any issues with it.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Bugs
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* I found multiple bugs while testing this project, however most were relatively minor cases of typos and such matters, and were easily fixed.
+* I did encounter problems trying to implement a Carousel into the project, which eventually led to me replacing ti for an embedded video, as I simply did noy have the time to spare on it any longer.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Validator
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* HTML
+    - No errors occured when run through the W3 validator.
+* CSS
+    - No errors occured when run through the Jigsaw validator.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Unfixed Bugs
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+There are no known unfixed bugs in this project.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Credits
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Content
+The code to make the social media links as well as to install the font for the logo was taken from the Love Running Walkthrough Project
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Media
+The Video was taken from the BazBattles Youtube Channel, and the various images taken from the English Heritage website.

@@ -238,6 +238,13 @@ h1 {
     margin-top: 5px;
 }
 
+#submit-button {
+    width: 50px;
+    height: 20px;
+    background-color: #fffdd0;
+    color: #4a3728;
+}
+
 /*styling for changing screensizes*/
 
 @media screen and (max-width: 1040px) {
